@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#log{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+#login{
+    border-radius: 10px;
+    padding: 15px 20px;
+    height: 50vh;
+    width: 20%;
+    background-color: aqua;
+}
+.item{
+    margin: 14px;
+    padding: 11px;
+}
+.item h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+input{
+    margin-top: 8px;
+    padding-right: 30%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    font-size: 16px;
+    border: none;
+    box-shadow: 3px 0 8px rgb(126, 0, 165);
+    border-bottom: 2px solid purple;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.item p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 11px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+#butt{
+    background-color: rgb(78, 233, 137);
+    margin-top: 10px;
+    margin-left: 33%;
+    padding: 5px 16px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: 1s;
+}
+#butt:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+a{
+    color: blue;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
